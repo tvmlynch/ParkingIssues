@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_pir.EmployeeCar</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Call from REST API</description>
+        <name>EmployeeCar</name>
+        <script><![CDATA[var EmployeeCar = Class.create();
+EmployeeCar.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	find : function(licensePlate,color,make,model) {
+		
+		var retObj = {};
+			
+			var gr = new GlideRecord("x_pir_employee_car");
+			gr.addQuery("license_plate_number", licensePlate);
+			gr.query();
+			if(gr.next() ) {
+			
+				//retObj.licensePlate = gr.getValue('license_plate_number');
+				//retObj.color = gr.getValue('color');
+				retObj.car = gr.getDisplayValue('car');
+				//retObj.make = gr.getDisplayValue('car.make');
+				//retObj.model = gr.getDisplayValue('car.model');
+				
+				
+				var json = new global.JSON();
+				return json.encode(retObj);
+			}
+			
+		},
+		type: 'EmployeeCar'
+	});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2018-08-17 21:00:46</sys_created_on>
+        <sys_id>39bea224dbc8e3009962d450cf961971</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>EmployeeCar</sys_name>
+        <sys_package display_value="Parking Issues" source="x_pir">2bc7b833673212008db1bcb532415a9d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Parking Issues">2bc7b833673212008db1bcb532415a9d</sys_scope>
+        <sys_update_name>sys_script_include_39bea224dbc8e3009962d450cf961971</sys_update_name>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2018-08-19 15:55:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

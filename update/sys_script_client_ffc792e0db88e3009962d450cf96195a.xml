@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Add Power Icon to Field for Car change</description>
+        <field>car</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Car Reference Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var mycar = g_form.getReference('car',setAssignTo);
+	//do a callback function to get the car from the car table
+	
+	function setAssignTo(mycar){
+		if(mycar.color == 'Red'){
+			//if the car color is Red add an Icon
+			g_form.addDecoration('car', 'icon-star', 'title');
+		}
+		else{
+			//if the car color is not red remove the icon
+			g_form.removeDecoration('car', 'icon-star', 'title');
+		}
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>tricia.lynch</sys_created_by>
+        <sys_created_on>2018-08-17 19:02:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffc792e0db88e3009962d450cf96195a</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Car Reference Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Parking Issues" source="x_pir">2bc7b833673212008db1bcb532415a9d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Parking Issues">2bc7b833673212008db1bcb532415a9d</sys_scope>
+        <sys_update_name>sys_script_client_ffc792e0db88e3009962d450cf96195a</sys_update_name>
+        <sys_updated_by>tricia.lynch</sys_updated_by>
+        <sys_updated_on>2018-08-17 20:05:14</sys_updated_on>
+        <table>x_pir_parking_issue</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -3,70 +3,84 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 02:21:12</sys_created_on>
-            <sys_id>b769b873673212008db1bcb532415a47</sys_id>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>fbea4dacdb84e3009962d450cf961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 02:21:12</sys_updated_on>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>make</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 02:21:12</sys_created_on>
-            <sys_id>3b69b873673212008db1bcb532415a47</sys_id>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>73ea4dacdb84e3009962d450cf961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 02:21:12</sys_updated_on>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>model</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 02:21:12</sys_created_on>
-            <sys_id>bb69b873673212008db1bcb532415a47</sys_id>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>f3ea4dacdb84e3009962d450cf961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 02:21:12</sys_updated_on>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display</element>
+            <position>3</position>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>77ea4dacdb84e3009962d450cf961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 02:21:12</sys_created_on>
-            <sys_id>3f69b873673212008db1bcb532415a47</sys_id>
+            <position>4</position>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>f7ea4dacdb84e3009962d450cf961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 02:21:12</sys_updated_on>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 02:21:12</sys_created_on>
-            <sys_id>bf69b873673212008db1bcb532415a47</sys_id>
+            <position>5</position>
+            <sys_created_by>tricia.lynch</sys_created_by>
+            <sys_created_on>2018-08-17 13:20:29</sys_created_on>
+            <sys_id>7bea4dacdb84e3009962d450cf961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_pir_car" sys_domain="global" view="Default view">8d19b473673212008db1bcb532415a79</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 02:21:12</sys_updated_on>
+            <sys_updated_by>tricia.lynch</sys_updated_by>
+            <sys_updated_on>2018-08-17 13:20:29</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
